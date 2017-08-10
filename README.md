@@ -1,5 +1,5 @@
 # hello-ref 👋
-This Javascript\jQuery project grabs the value of `?ref=` from a URL and present a custom message based on the source. The main use case I planned this script for is for when I share things from my blog [(shameless plug 😬)](http://slashproject.com?ref=github) I'd have the option to present a custom call to action based on the source. 
+This Javascript\jQuery project grabs the value of `?ref=` from a URL and present a custom message based on the source. The main use case I planned this script for is for when I share things from my blog [(shameless plug 😬)](http://slashproject.co?ref=github) I'd have the option to present a custom call to action based on the source. 
 
 ![alt text](demo.png)
 
