@@ -3,7 +3,7 @@ This Javascript\jQuery project grabs the value of `?ref=` from a URL and present
 
 ![alt text](demo.png)
 
-### Installation 
+## Installation 
 - Prerequisite: Import jQuery to your project 
 - Include `hello-ref.js` in your project 
 - Include `hello-ref.css` in your project 
@@ -15,7 +15,7 @@ This Javascript\jQuery project grabs the value of `?ref=` from a URL and present
     </div>
 ```
 
-### How to add additional ref sources 
+## How to add additional ref sources 
 
 Currently hello-ref that is on this repo supprots custom messages for Facebook, Twitter, Product Hunt and gitHub but it's super easy to add additional ref sources:
 
