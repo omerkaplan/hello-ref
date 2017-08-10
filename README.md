@@ -39,3 +39,4 @@ And then include it as a `case` in the javascript file
       $('.hello-ref-text').text('Hi Product Hunt people 👋 this text is brought to you by Hello-Ref plugin');
       break;
 ```
+🎉
