@@ -7,6 +7,13 @@ This Javascript\jQuery project grabs the value of `?ref=` from a URL and present
 - Prerequisite: Import jQuery to your project 
 - Include `hello-ref.js` in your project 
 - Include `hello-ref.css` in your project 
+- Add the following HTML at the place you'd like to have your message displayed:
+
+```html
+    <div class = "hello-ref">
+      <div class = "hello-ref-text"></div>
+    </div>
+```
 
 ### How to add additional ref sources 
 
