@@ -26,7 +26,7 @@ var ref = refArray[0]; // the good stuff
 
 switch (ref) {
 
-  case 'facebook': 
+  case 'facebook':
         $('.hello-ref').show();
         $('.hello-ref').addClass('hello-ref-facebook');
         $('.hello-ref-text').text('Hi Facebook people 👋 this text is brought to you by Hello-Ref plugin');
@@ -44,11 +44,18 @@ switch (ref) {
         $('.hello-ref-text').text('Hi Github people 👋 this text is brought to you by Hello-Ref plugin');
         break;
 
-  case 'krush':
+  case 'test':
         $('.hello-ref').show();
-        $('.hello-ref').addClass('hello-ref-krush');
-        $('.hello-ref-text').text('Hi Krush tech people 👋 this text is brought to you by Hello-Ref plugin');
+        $('.hello-ref').addClass('hello-ref-test');
+        $('.hello-ref-text').text('Hello world! 👋 This text means that hello-ref is working!');
         break;
+
+  case 'producthunt':
+      $('.hello-ref').show();
+      $('.hello-ref').addClass('hello-ref-producthunt');
+      $('.hello-ref-text').text('Hi Product Hunt people 👋 this text is brought to you by Hello-Ref plugin');
+      break;
 }
+
 
 }) //end of js file

@@ -1,3 +1,38 @@
-<div class = "hello-ref">
-  <div class = "hello-ref-text"></div>
-</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hello-Ref test page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../hello-ref/css/hello-ref.css">
+  <script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script> <!-- Importing jQuery -->
+    <script src ="../hello-ref/js/hello-ref.js"></script>
+</head>
+
+<body>
+    <div class = "hello-ref">
+      <div class = "hello-ref-text"></div>
+    </div>
+    <h1>Hello-ref test page</h1>
+    <p>This page is meant to help demonstrate how hello-ref work.</p>
+    <p>What it does basically is grabs the value of ?Ref= from the URL and presents a custom message.</p>
+    <p>You get to control the design and text for each referral.</p>
+    <br>
+    <h2>Main use case</h2>
+    <p>When you share your website on a network, append ?ref= to the URL</p>
+    <p>so you can present a message when people hop in</p>
+    <p><a href="https://github.com/omerkaplan/hello-ref">Check the gitHub repo for an updates release notes</a></p>
+    <br>
+    <h2>Test it yourself</h2>
+    <p><a href="index.html?ref=test">Click here to add ?ref=test to this file and get a message</a></p>
+    <p><a href="index.html?ref=twitter">Twitter support 🦉</a></p>
+    <p><a href="index.html?ref=facebook">Facebook support 🙋</a></p>
+    <p><a href="index.html?ref=producthunt">Product Hunt support 🙀</a></p>
+
+
+</body>
+
+</html>

@@ -13,6 +13,12 @@
   color: #ffffff;
 }
 
+
+.hello-ref-test {
+  background-color: #6e5494;
+  border-color:  #6e5494;
+}
+
 .hello-ref-facebook {
   background-color: #3b5998;
   border-color: #3b5998;
@@ -28,7 +34,7 @@
   border-color: #6e5494;
 }
 
-.hello-ref-krush {
-  background-color: black;
-  border-color: black;
+.hello-ref-producthunt {
+  background-color: #da552f;
+  border-color: #da552f;
 }
